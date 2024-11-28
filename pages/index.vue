@@ -22,7 +22,6 @@ const slideNext = () => {
   roomSwiper.value.$el.swiper.slideNext();
 }
 
-
 </script>
 
 <template>
@@ -75,7 +74,7 @@ const slideNext = () => {
             <p class="text-neutral-40 fw-semibold">
               我們致力於為您提供無與倫比的奢華體驗與優質服務
             </p>
-            <RouterLink 
+            <RouterLink
               to="/rooms"
               class="btn btn-neutral-0 d-flex justify-content-end align-items-center gap-3 w-100 text-end text-neutral-100 fs-5 fw-semibold border-0"
             >
@@ -242,7 +241,7 @@ const slideNext = () => {
             </picture>
           </SwiperSlide>
         </Swiper>
-        
+
         <div class="room-intro-content text-neutral-0">
           <h2 class="mb-2 mb-md-4 fw-bold">
             尊爵雙人房
