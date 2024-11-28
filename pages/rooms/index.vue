@@ -24,8 +24,8 @@ const roomImages = computed(() => {
   const result = rooms.reduce((acc, roomId) => {
     acc[`room${roomId.toUpperCase()}`] = nums.reduce((obj, num) => {
       obj[num] = {
-        desktop: importImage(`https://github.com/JHANGMING/nuxt_task_router/tree/dev/public/images/room-${roomId}-${num}.png`),
-        mobile: importImage(`https://github.com/JHANGMING/nuxt_task_router/tree/dev/public/images/room-${roomId}-sm-${num}.png`)
+        desktop: importImage(`/images/room-${roomId}-${num}.png`),
+        mobile: importImage(`/images/room-${roomId}-sm-${num}.png`)
       };
       return obj;
     }, {});
